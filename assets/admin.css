@@ -1,0 +1,26 @@
+/* General */
+.nowrap { white-space: nowrap; }
+.wrap { overflow-x: auto; } /* avoid any horizontal overflow issues */
+
+/* Inventory table specifics */
+.wcipb-table { table-layout: fixed; }
+.wcipb-table th, .wcipb-table td { word-wrap: break-word; word-break: break-word; }
+
+.wcipb-id-col { width: 80px; }
+.wcipb-title-col { width: auto; }
+.wcipb-ms-col { width: 140px; }
+.wcipb-qty-col { width: 120px; }
+
+/* Strong, specific control over Quantity input width */
+.wcipb-table .wcipb-qty {
+  width: 90px !important;
+  max-width: 90px !important;
+  min-width: 70px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Also keep selects tidy */
+.wcipb-table .wcipb-ms-col select {
+  max-width: 120px;
+}

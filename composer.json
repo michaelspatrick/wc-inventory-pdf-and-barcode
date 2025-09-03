@@ -1,0 +1,12 @@
+{
+  "name": "chatgpt/wc-inventory-pdf-and-barcode",
+  "type": "wordpress-plugin",
+  "require": {
+    "dompdf/dompdf": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WCIPB\\": "includes/"
+    }
+  }
+}
