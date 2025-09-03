@@ -6,7 +6,7 @@
  * Author: Michael Patrick
  * License: GPL2+
  * Text Domain: wc-inventory-pdf-barcode
- * Requires: WooCommerce
+ * Requires Plugins: woocommerce
  */
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
